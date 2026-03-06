@@ -1,3 +1,4 @@
+// Populates the database with sample data for local development.
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();

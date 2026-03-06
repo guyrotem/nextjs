@@ -4,3 +4,11 @@ node_modules
 *.db
 .DS_Store
 package-lock.json
+pnpm-lock.yaml
+
+# Wix Bazel extension generated files
+.bloop
+.wixbazel
+.bsp
+.metals
+.vscode

@@ -1,0 +1,23 @@
+{
+  "name": "backend-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "fastify": "^5.3.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9",
+    "@types/node": "^20",
+    "eslint": "^9",
+    "tsx": "^4.21.0",
+    "typescript": "^5",
+    "typescript-eslint": "^8"
+  }
+}

@@ -1,6 +1,8 @@
 node_modules
 .next
+dist
 .env*
+!.env.example
 *.db
 .DS_Store
 package-lock.json
@@ -12,3 +14,4 @@ pnpm-lock.yaml
 .bsp
 .metals
 .vscode
+notes/
